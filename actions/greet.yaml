@@ -1,4 +1,5 @@
-me: greet
+---
+name: greet
 pack: tuleap
 runner_type: "local-shell-cmd"
 description: Greet StackStorm!
