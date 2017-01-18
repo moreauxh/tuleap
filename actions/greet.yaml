@@ -1,5 +1,5 @@
 me: greet
-pack: hello_st2
+pack: tuleap
 runner_type: "local-shell-cmd"
 description: Greet StackStorm!
 enabled: true
