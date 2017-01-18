@@ -1,0 +1,10 @@
+---
+ref: tuleap
+name : tuleap
+description : st2 content pack containing tuleap integrations
+keywords:
+  - tuleap
+  - alm
+version : 0.1.0
+author : Enalean, Inc.
+email : humbert.moreaux@enalean.com
