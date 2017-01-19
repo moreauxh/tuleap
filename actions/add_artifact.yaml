@@ -8,7 +8,7 @@ entry_point: add_artifact.sh
 parameters:
     tuleap_url:
         type: "string"
-        description: "The Tuleap website url, ex: example.com"
+        description: "The domain name, ex: example.com"
         required: true
         position: 1
     token:
