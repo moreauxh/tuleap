@@ -4,7 +4,7 @@ pack: tuleap
 runner_type: "local-shell-cmd"
 description: Add Tracker artifact
 enabled: true
-entry_point: show_projects.sh
+entry_point: add_artifact.sh
 parameters:
     tuleap_url:
         type: "string"
