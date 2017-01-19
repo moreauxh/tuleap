@@ -1,13 +1,13 @@
 ---
-name: show_projects
+name: get_projects
 pack: tuleap
 runner_type: "local-shell-cmd"
 description: Show Tuleap projects
 enabled: true
-entry_point: show_projects.sh
+entry_point: get_projects.sh
 parameters:
-    tuleap_url:
+    domain_name:
         type: "string"
-        description: "The Tuleap website url"
+        description: "The domain name, ex: example.com"
         required: true
         position: 1
