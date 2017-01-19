@@ -2,7 +2,7 @@
 name: get_projects
 pack: tuleap
 runner_type: "local-shell-cmd"
-description: Show Tuleap projects
+description: Get projects list from Tuleap database
 enabled: true
 entry_point: get_projects.sh
 parameters:
