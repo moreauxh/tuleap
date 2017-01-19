@@ -1,0 +1,23 @@
+---
+name: generate_token
+pack: tuleap
+runner_type: "local-shell-cmd"
+description: Generate a Token and get User Id for Tuleap Account
+enabled: true
+entry_point: generate_token.sh
+parameters:
+    domain_name:
+        type: "string"
+        description: "The domain name, ex: example.com"
+        required: true
+        position: 1
+    username:
+        type: "string"
+        description: "User name"
+        required: true
+        position: 2
+    password:
+        type: "integer"
+        description: "User password"
+        required: true
+        position: 3
