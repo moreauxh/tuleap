@@ -6,7 +6,7 @@ description: Add Tracker artifact
 enabled: true
 entry_point: add_artifact.sh
 parameters:
-    tuleap_url:
+    domain_name:
         type: "string"
         description: "The domain name, ex: example.com"
         required: true

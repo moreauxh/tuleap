@@ -1,5 +1,5 @@
 #!/bin/bash
-payload = '{
+payload='{
     "tracker": {"id" : '$4'},
     "values_by_field": '$5'
 }'
