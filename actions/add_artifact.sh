@@ -1,7 +1,7 @@
 #!/bin/bash
 payload = '{
-    "tracker": {"id" : '$2'},
-    "values_by_field": '$3'
+    "tracker": {"id" : '$3'},
+    "values_by_field": '$4'
 }'
 
-echo $(curl -k -H "X-Auth-Token: ${ST2_ACTION_AUTH_TOKEN}"  POST -d 'payload='$payload $1:443/api/artifacts)
+echo $(curl -k -H "X-Auth-Token: $2"  POST -d 'payload='$payload $1:443/api/artifacts)

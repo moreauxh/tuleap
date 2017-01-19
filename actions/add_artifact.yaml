@@ -11,13 +11,18 @@ parameters:
         description: "The Tuleap website url"
         required: true
         position: 1
+    token:
+        type: "string"
+        description: "Token give by the Tuleap API"
+        required: true
+        position: 2
     tracker_id:
         type: "integer"
         description: "Tracker id"
         required: true
-        position: 2
+        position: 3
     values:
         type: "object"
         description: 'Values, ex: {"title": {"value": "Lorem ipsum dolor sit amet"}, "remaining_effort": {"value": 75}}'
         required: true
-        position: 3
+        position: 4
