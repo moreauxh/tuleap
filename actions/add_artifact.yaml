@@ -18,6 +18,6 @@ parameters:
         position: 2
     values:
         type: "object"
-        description: 'Values, ex: [{"field_id": 1806, "value" : "my new artifact"}, {"field_id": 1841, "bind_value_ids" : [254,598,148]}"]'
+        description: 'Values, ex: {"title": {"value": "Lorem ipsum dolor sit amet"}, "remaining_effort": {"value": 75}}'
         required: true
         position: 3
