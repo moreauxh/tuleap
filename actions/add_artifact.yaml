@@ -16,13 +16,16 @@ parameters:
         description: "Token give by the Tuleap API"
         required: true
         position: 2
+    user_id:
+        type: "integer"
+        description: "User id"
     tracker_id:
         type: "integer"
         description: "Tracker id"
         required: true
-        position: 3
+        position: 4
     values:
         type: "object"
         description: 'Values, ex: {"title": {"value": "Lorem ipsum dolor sit amet"}, "remaining_effort": {"value": 75}}'
         required: true
-        position: 4
+        position: 5
