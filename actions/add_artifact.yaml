@@ -19,6 +19,8 @@ parameters:
     user_id:
         type: "integer"
         description: "User id"
+        required: true
+        position: 3
     tracker_id:
         type: "integer"
         description: "Tracker id"
