@@ -1,0 +1,23 @@
+---
+name: add_artifact
+pack: tuleap
+runner_type: "local-shell-cmd"
+description: Add Tracker artifact
+enabled: true
+entry_point: show_projects.sh
+parameters:
+    tuleap_url:
+        type: "string"
+        description: "The Tuleap website url"
+        required: true
+        position: 1
+    tracker_id:
+        type: "integer"
+        description: "Tracker id"
+        required: true
+        position: 2
+    values:
+        type: "object"
+        description: 'Values, ex: [{"field_id": 1806, "value" : "my new artifact"}, {"field_id": 1841, "bind_value_ids" : [254,598,148]}"]'
+        required: true
+        position: 3
