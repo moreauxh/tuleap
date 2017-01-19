@@ -4,7 +4,7 @@ pack: tuleap
 runner_type: "local-shell-cmd"
 description: Show Tuleap projects
 enabled: true
-entry_point: show_projects.py
+entry_point: show_projects.sh
 parameters:
     tuleap_url:
         type: "string"
