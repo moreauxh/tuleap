@@ -33,4 +33,3 @@ class HelloSensor(Sensor):
 
     def remove_trigger(self, trigger):
         pass
-

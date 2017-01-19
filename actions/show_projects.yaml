@@ -1,0 +1,19 @@
+---
+name: show_projects
+pack: tuleap
+runner_type: 'remote-shell-cmd'
+description: Show Tuleap projects
+enabled: true
+entry_point: show_projects.py
+parameters:
+  tuleap_url:
+    type: "string"
+    description: "The Tuleap website url"
+    required: true
+    position: 0
+  user:
+    type: "string"
+    description: "User of this action."
+    required: true
+    default: "{{action_context.api_user}}"
+    position: 1
