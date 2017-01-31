@@ -1,0 +1,17 @@
+---
+name: "synchronize"
+pack: "tuleap"
+enabled: true
+description: "synchronization rule to apply tuleap action on github"
+trigger:
+  type: "core.st2.generic.notifytrigger"
+criteria:
+  trigger.route:
+    pattern: "tuleap"
+    type: "equals"
+action:
+  ref: chatops.post_result
+  parameters:
+    channel: "{{trigger.data.source_channel}}"
+    user: "{{trigger.data.user}}"
+    execution_id: "{{trigger.execution_id}}"
